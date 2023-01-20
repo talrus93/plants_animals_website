@@ -1,0 +1,295 @@
+body.home_page { 
+background-image: url("mountainSlovakia.jpg");
+background-size: cover;
+} 
+
+
+
+header
+{
+display: flex;
+justify-content: flex-end;
+align-items: right;
+background-color: #03252baf;
+background-attachment: fixed;
+padding: 6px 10px; 
+}
+
+*
+{
+    box-sizing: border-box;    
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo
+{
+    float:left; 
+    width: 100px;
+    height: 45px; 
+    margin-right: auto;
+}
+
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;    
+}
+
+
+.navbar li {
+float: right;
+}
+  
+.navbar li a  {
+display: block;
+color: rgb(221, 212, 212);
+font-family: sans-serif;
+font-size: 20px;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+list-style: none;
+}
+  
+.navbar li a:hover {
+background-color: rgb(140, 158, 170) ;
+}
+
+body.home_page h1{
+    margin-top: 100px;
+    text-align:center;
+    font-family: sans-serif;
+    font-size: 24px;
+    color: #03252baf;
+ }
+
+body.home_page p{
+    text-align:center;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #03252baf;    
+}
+
+   
+
+body.kategoria1 {
+    background-image:  url("deers.jpg");
+    background-size: cover;
+    }
+
+    body.kategoria1 h1{
+        margin-top: 100px;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 24px;
+        color: rgb(214, 214, 214); }
+    
+    body.kategoria1 .zvierat {
+        font-family: sans-serif;
+        font-size: 20px;
+        color: rgb(247, 247, 247); 
+        margin: 30px;
+        background-color: rgb(5, 67, 71);
+        border: 1px solid black;
+        opacity: 0.6;   
+    }
+
+body.kategoria1 video {
+margin-left: 1050px;
+}
+
+body.kategoria1 audio {
+    width: 300px;
+    height: 54px;
+    margin-left: 180px;
+    max-width:350px;
+    position:absolute;
+    top:5px;
+    left: 20px;
+    
+}
+
+body.kategoria2 {
+background-image: url("deer in the forest.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+} 
+
+body.kategoria2 h1{
+    margin-top: 70px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white
+}
+
+body.kategoria2 h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 250px;
+    position: relative;
+    bottom: 50px;
+    left: 1200px;
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: aliceblue; }
+
+body.kategoria2 .rastlin{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: aliceblue;    
+}
+body.kategoria2 iframe{
+    width: 560px; 
+    height: 315px; 
+    position: relative;
+    left: 10px;
+    top: 55px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;       
+}
+
+
+.kartask img {
+    width: 570px; 
+    height: 350px; 
+    position: relative;
+    bottom: 90px;
+    left: 1000px;
+    display: block;
+    float: left;       
+}
+
+
+body.kontakt {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1600px;
+    height: 800px;
+    background-position: bottom;
+    background-size: cover;    
+}
+
+*{box-sizing: border-box;}
+
+.contact-img {
+background-image: url("Contact1.jpg");
+margin-top: 50px;
+filter: blur(6px);
+-webkit-filter: blur(6px);
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.contact-text {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4);
+    color: rgb(247, 242, 242);
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+body.adres {
+background-image: url("map.jpg");
+height: 100%;
+margin: 0;
+background-size: cover;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+*{box-sizing: border-box;}
+
+.adres-img {
+background-image: url("map.jpg");
+margin-top: 50px;
+filter: blur(6px);
+-webkit-filter: blur(6px);
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.adres-text {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4);
+    color: rgb(247, 242, 242);
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+body.kto_sme {
+    background-color: #03252baf;
+    background-size: cover;
+    }
+    
+    body.kto_sme h4{
+        margin-top: 100px;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 24px;
+        color: white;
+     }
+    
+    body.kto_sme .o_nas{
+        font-family: sans-serif;
+        font-size: 20px;
+        color: white;    
+    }
+  
+    body.jasen {
+background-color: rgb(74, 177, 96);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+   
+    }
+
+    body.jasen h1 {
+            text-align: center;
+            font-size: 40px;
+            }
+     body.jasen p{
+        font-family: sans-serif;
+        font-size: 20px;
+        line-height:2.0;
+        font: 20px/2.0, sans-serif;
+        padding: 0;
+        margin: 15px; 
+     }       
+
+    img.jasen {
+    float: left;
+    position: relative;
+    top: 20px;
+    width: 430px;
+    height: 300px;
+    }
+
+  
+
